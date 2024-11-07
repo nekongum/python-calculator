@@ -30,7 +30,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(75, 25), 3)
 
     def test_modulo1(self):
-        self.assertEqual(self.calc.modulo(10, 7), 3)
+        self.assertEqual(self.calc.modulo(11, 7), 4)
     def test_modulo2(self):
         self.assertEqual(self.calc.modulo(10, 3), 1)
 
